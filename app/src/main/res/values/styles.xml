@@ -1,0 +1,155 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="android:windowAnimationStyle">@style/Animation.Activity.Translucent.Style</item>-->
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttonStyle">@style/DefaultButtonStyle</item>
+        <item name="colorButtonNormal">@color/orange</item>
+        <item name="android:screenOrientation">portrait</item>
+    </style>
+
+    <style name="DefaultButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="text_black_38" parent="text_black">
+        <item name="android:textSize">@dimen/dph_text_38px</item>
+    </style>
+
+    <style name="text_black_46" parent="text_black">
+        <item name="android:textSize">@dimen/dph_text_46px</item>
+    </style>
+
+    <style name="text_black_42" parent="text_black">
+        <item name="android:textSize">@dimen/dph_text_42px</item>
+    </style>
+
+    <style name="text_black_40" parent="text_black">
+        <item name="android:textSize">@dimen/dph_text_40px</item>
+    </style>
+
+    <style name="text_white_46" parent="text_white">
+        <item name="android:textSize">@dimen/dph_text_46px</item>
+    </style>
+
+    <style name="text_white_42" parent="text_white">
+        <item name="android:textSize">@dimen/dph_text_42px</item>
+    </style>
+
+    <style name="text_gray2_38" parent="text_gray2">
+        <item name="android:textSize">@dimen/dph_text_38px</item>
+    </style>
+
+    <style name="text_gray2_42" parent="text_gray2">
+        <item name="android:textSize">@dimen/dph_text_42px</item>
+    </style>
+
+    <style name="text_gray2_46" parent="text_gray2">
+        <item name="android:textSize">@dimen/dph_text_46px</item>
+    </style>
+
+    <style name="text_gray1_38" parent="text_gray1">
+        <item name="android:textSize">@dimen/dph_text_38px</item>
+    </style>
+
+    <style name="text_gray1_42" parent="text_gray1">
+        <item name="android:textSize">@dimen/dph_text_42px</item>
+    </style>
+
+    <style name="text_gray1_46" parent="text_gray1">
+        <item name="android:textSize">@dimen/dph_text_46px</item>
+    </style>
+
+    <style name="text_base_color_54" parent="text_base_color">
+        <item name="android:textSize">@dimen/dph_text_54px</item>
+    </style>
+
+    <style name="text_base_color_46" parent="text_base_color">
+        <item name="android:textSize">@dimen/dph_text_46px</item>
+    </style>
+
+    <style name="text_base_color_42" parent="text_base_color">
+        <item name="android:textSize">@dimen/dph_text_42px</item>
+    </style>
+
+    <style name="text_base_color_38" parent="text_base_color">
+        <item name="android:textSize">@dimen/dph_text_38px</item>
+    </style>
+
+    <style name="text_base_color_40" parent="text_base_color">
+        <item name="android:textSize">@dimen/dph_text_40px</item>
+    </style>
+
+    <style name="text_red_54" parent="text_red">
+        <item name="android:textSize">@dimen/dph_text_54px</item>
+    </style>
+
+    <style name="text_red_42" parent="text_red">
+        <item name="android:textSize">@dimen/dph_text_42px</item>
+    </style>
+
+    <style name="text_red_46" parent="text_red">
+        <item name="android:textSize">@dimen/dph_text_46px</item>
+    </style>
+
+    <style name="text_red_38" parent="text_red">
+        <item name="android:textSize">@dimen/dph_text_38px</item>
+    </style>
+
+    <style name="text_red_40" parent="text_red">
+        <item name="android:textSize">@dimen/dph_text_40px</item>
+    </style>
+
+    <!-- 字体颜色 -->
+    <style name="text_black">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="text_red">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="text_white">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_gray2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_gray2</item>
+    </style>
+
+    <style name="text_gray1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_gray1</item>
+    </style>
+
+
+    <style name="text_base_color">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/base_color</item>
+    </style>
+
+</resources>

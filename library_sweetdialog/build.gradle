@@ -1,0 +1,30 @@
+apply plugin: 'com.android.library'
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.3'
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 26
+        ndk {
+            //选择要添加的对应cpu类型的.so库。
+            abiFilters 'armeabi', 'armeabi-v7a'
+//            ,'x86', 'x86_64', 'mips', 'mips64','x86'
+        }
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+}
+
+dependencies {
+}

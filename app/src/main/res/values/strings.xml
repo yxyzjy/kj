@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="no_data">暂无数据</string>
+    <string name="already_no_earth">已经到底了</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="1dp"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/dph_40px">
+
+    <kj.dph.com.view.CircularImage
+        android:id="@+id/iv_health_pic"
+        android:layout_gravity="center_vertical"
+        android:layout_width="@dimen/dph_180px"
+        android:layout_height="@dimen/dph_180px"
+        tools:src="@mipmap/default_pic" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="@dimen/dph_20px"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_health_jf"
+            style="@style/text_base_color_46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center_vertical"
+            tools:text="河南省人河人民医院民医院" />
+
+        <TextView
+            android:id="@+id/tv_hospitals_grade"
+            style="@style/text_black_42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:maxLines="1"
+            android:gravity="center_vertical"
+            tools:text="三甲" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingRight="@dimen/dph_40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right|top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_hospitals_type"
+            style="@style/text_white_42"
+            android:layout_width="@dimen/dph_130px"
+            android:layout_height="@dimen/dph_70px"
+            android:gravity="center"
+            android:background="@color/blue"
+            android:text="预约" />
+
+        <TextView
+            android:id="@+id/tv_hospitals_distance"
+            style="@style/text_gray2_38"
+            android:layout_marginTop="@dimen/dph_50px"
+            android:gravity="center_vertical"
+            tools:text="12.3KM" />
+    </LinearLayout>
+
+</LinearLayout>
