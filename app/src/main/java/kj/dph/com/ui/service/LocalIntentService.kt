@@ -9,6 +9,9 @@ import kj.dph.com.util.logUtil.LogUtilYxy
  * Created by yxy on 2018/4/9 0009.
  */
 class LocalIntentService : IntentService {
+
+    constructor():super("local")
+
     constructor(name: String?) : super(name)
 
 

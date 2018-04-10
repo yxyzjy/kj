@@ -9,6 +9,12 @@ import android.support.annotation.Nullable;
  */
 
 public class MyIntentService extends IntentService {
+
+    public MyIntentService(){
+        super("a");
+
+    }
+
     public MyIntentService(String name) {
         super(name);
     }

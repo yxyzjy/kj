@@ -63,10 +63,10 @@ class MainActivity : BaseActivity2016(), RefreshLayout.OnRefreshListener {
                         var service = Intent(this@MainActivity, LocalIntentService::class.java)
                         service.putExtra("task_action", "com.yxy.action.task1")
                         startService(service)
-                        /*service.putExtra("task_action","com.yxy.action.task2")
+                        service.putExtra("task_action","com.yxy.action.task2")
                         startService(service)
                         service.putExtra("task_action","com.yxy.action.task3")
-                        startService(service)*/
+                        startService(service)
                     }
                 }
 
